@@ -107,7 +107,7 @@ If the Location has a parentId, it means it is a sub location
 ```
 
 The visual representation:
-```json
+```
 - PRODUCTION AREA - RAW MATERIAL
   |
   ├── CHARCOAL STORAGE SECTOR
