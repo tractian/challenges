@@ -9,6 +9,8 @@ Increasingly, this evaluation has become time-consuming, decreasing our ability 
 
 > **An interesting fact:** 90% of our top engineers took the challenge in their area to join TRACTIAN. <br>*It should be clear how important this challenge is.*
 
+> :star: The challenge is an accelerator for the evaluation of your application, those who have completed the challenge will be assessed first.
+
 ### Available Challenges
 All our challenges are available in this repository, but that does not mean there is an open position for the area/position. We recommend checking if there are available positions for what you want to apply for, [click here to check](https://tractian.com/en/careers).
 
