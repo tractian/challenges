@@ -187,9 +187,9 @@ To summarize, this is the visual representation of this items on the Tree
 ### Demo API
 The API only works for GET requests, there are 3 endpoints:
 
-`/companies` - Returns all companies
-`/companies/:companyId/locations` - Returns all locations of the company
-`/companies/:companyId/assets` - Returns all assets of the company
+- `/companies` - Returns all companies
+- `/companies/:companyId/locations` - Returns all locations of the company
+- `/companies/:companyId/assets` - Returns all assets of the company
 
 API: fake-api.tractian.com
 
