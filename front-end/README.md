@@ -191,7 +191,7 @@ The API only works for GET requests, there are 3 endpoints:
 - `/companies/:companyId/locations` - Returns all locations of the company
 - `/companies/:companyId/assets` - Returns all assets of the company
 
-API: fake-api.tractian.com
+API: [fake-api.tractian.com](fake-api.tractian.com)
 
 ### Deploy
 The challenge must be in a public repository on GitHub. Upon completion, a new application with the link to the challenge repository should be made on the job application page. Remember, the challenge does not guarantee your position, it is an enhancer and a differentiator for us to assess your profile more accurately.
