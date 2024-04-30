@@ -5,7 +5,7 @@
 ### About this Repository
 Every year since its founding, TRACTIAN has doubled in size. Today, we have **more than 350 employees**, and it has been a huge challenge to find people who are culturally aligned and prepared. Additionally, every month we receive **over 5,000 applications from people interested in revolutionizing the industry with us**. We have always been very meticulous in evaluating each application individually. *To find good employees, no precaution is too small.*
 
-Increasingly, this evaluation has become time-consuming, decreasing our ability to quickly assess all candidates. We believe that there isn’t sufficient technology in the market to evaluate candidates the way we do. We have decided to open our challenges to everyone interested in working with us, believing that facing the challenge differentiates you from other candidates and ensures that you are assessed technically beyond your background, LinkedIn, or resume.
+This evaluation has become time-consuming, decreasing our ability to quickly assess all candidates. We believe that there isn’t sufficient technology in the market to evaluate candidates the way we do. We have decided to open our challenges to everyone interested in working with us, believing that facing the challenge differentiates you from other candidates and ensures that you are assessed technically beyond your background, LinkedIn, or resume.
 
 > **An interesting fact:** 90% of our top engineers took the challenge in their area to join TRACTIAN. <br>*It should be clear how important this challenge is.*
 
