@@ -21,6 +21,7 @@ All our challenges are available in this repository, but that does not mean ther
 
 ### How to submit the challenge?
 When applying for the desired position, you will receive an email about the challenge. Simply reply to it with the link to the repository. (We only accept links from public GitHub repositories)
+
 Remember, the challenge does not guarantee your position, it is an enhancer and a differentiator for us to assess your profile more accurately.
 
 
