@@ -20,7 +20,8 @@ All our challenges are available in this repository, but that does not mean ther
 - Quality Software Analyst (Coming Soon)
 
 ### How to submit the challenge?
-You must first apply for the position on the career site. At the end of the form, you will find a field to attach the link to the repository. (We only accept links from public GitHub repositories.)
+When applying for the desired position, you will receive an email about the challenge. Simply reply to it with the link to the repository. (We only accept links from public GitHub repositories)
+Remember, the challenge does not guarantee your position, it is an enhancer and a differentiator for us to assess your profile more accurately.
 
 
 > Thank you for your interest in being part of the startup that is transforming the industry in the world.

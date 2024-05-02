@@ -193,9 +193,6 @@ The API only works for GET requests, there are 3 endpoints:
 
 API: [fake-api.tractian.com](fake-api.tractian.com)
 
-### Deploy
-The challenge must be in a public repository on GitHub. Upon completion, a new application with the link to the challenge repository should be made on the job application page. Remember, the challenge does not guarantee your position, it is an enhancer and a differentiator for us to assess your profile more accurately.
-
 ### Extra
 You may use libraries for anything you find essential, **except** for the Asset Tree and the UI.
 In this challenge, performance and usability count as **bonus** points.
