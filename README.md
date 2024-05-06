@@ -15,7 +15,7 @@ This evaluation has become time-consuming, decreasing our ability to quickly ass
 All our challenges are available in this repository, but that does not mean there is an open position for the area/position. We recommend checking if there are available positions for what you want to apply for, [click here to check](https://tractian.com/en/careers).
 
 - [Front-end Software Engineer](./front-end/README.md)
-- Mobile Software Engineer (Coming Soon)
+- [Mobile Software Engineer](./mobile/README.md)
 - Back-end Software Engineer (Coming Soon)
 - Quality Software Analyst (Coming Soon)
 
