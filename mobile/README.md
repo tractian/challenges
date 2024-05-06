@@ -63,11 +63,11 @@ In summary, a tree may like look this:
 
 ## Features
 
-### 1. **Home Page**
+**1. Home Page**
 
 - Is the menu for users to navigate between different companies and access  their assets.
 
-### 2. **Asset Page**
+**2. Asset Page**
 
 - The Asset Tree is the core feature, offering a visual Tree representation of the company's asset hierarchy.
 - **Sub-Features:**
@@ -92,6 +92,7 @@ In summary, a tree may like look this:
 You have Assets and Locations, you need to relate both of them to build the Tree.
 
 **Locations Collection**
+
 Contains only Locations and sub locations (Composed with name, id and a optional parentId)
 ```json
 {
@@ -119,6 +120,7 @@ The visual representation:
 
     
 **Assets Collection**
+
 Contains assets, sub assets and components (Composed by name, id and a optional locationId, parentId and sensorType)
 
 If the item has a sensorType, it means it is a component. If it does not have a location or a parentId, it means he is unliked from any asset or location in the tree.
