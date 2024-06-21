@@ -6,7 +6,7 @@ Assets are essential to the operation of the industry, it can include everything
 
 ### Challenge
 
-> 📌  **Build an Tree View Application that shows companies Assets** 
+> 📌  **Build a Tree View Application that shows companies Assets** 
 *(The tree is basically composed with components, assets and locations)*
 
 **Components**
@@ -23,7 +23,7 @@ Assets are essential to the operation of the industry, it can include everything
 - Assets have a set of components
 - Some assets are very large, like a conveyor belt and they **may** contain N sub-assets.
 - Assets are typically associated with a location, but the customer **may** want to add assets without specifying a location as a parent.
-- You can know that an item is a **asset**, if they have another assets or components as children.
+- You can know that an item is an **asset**, if they have other assets or components as children.
 - On the tree, assets are represented by this icon:
 ![asset](../assets/asset.png)
     
@@ -65,14 +65,14 @@ In summary, a tree may like look this:
 
 **1. Home Page**
 
-- Is the menu for users to navigate between different companies and access  their assets.
+- Is the menu for users to navigate between different companies and access their assets.
 
 **2. Asset Page**
 
 - The Asset Tree is the core feature, offering a visual Tree representation of the company's asset hierarchy.
 - **Sub-Features:**
     1. **Visualization**
-        - Present a dynamic tree structure displaying components, assets, and locations.
+        - Present a dynamic tree structure displaying components, assets and locations.
     2. **Filters**
         
         **Text Search**
@@ -86,14 +86,14 @@ In summary, a tree may like look this:
         **Critical Sensor Status**
         
         - Integrate a filter to identify assets with critical sensor status.
-    - When the filters are applied, the asset parents **can't** be hidden. The user must know the entire asset path. The items that are not related to the asset path, must be hidden
+    - When the filters are applied, the asset parents **can't** be hidden. The user must know the entire asset path. The items that are not related to the asset path must be hidden
 
 ### Technical Data
 You have Assets and Locations, you need to relate both of them to build the Tree.
 
 **Locations Collection**
 
-Contains only Locations and sub locations (Composed with name, id and a optional parentId)
+Contains only Locations and sub locations (Composed with name, id and an optional parentId)
 ```json
 {
   "id": "65674204664c41001e91ecb4",
@@ -121,9 +121,9 @@ The visual representation:
     
 **Assets Collection**
 
-Contains assets, sub assets and components (Composed by name, id and a optional locationId, parentId and sensorType)
+Contains assets, sub assets and components (Composed by name, id and an optional locationId, parentId and sensorType)
 
-If the item has a sensorType, it means it is a component. If it does not have a location or a parentId, it means he is unliked from any asset or location in the tree.
+If the item has a sensorType, it means it is a component. If it does not have a location or a parentId, that means it is unliked from any asset or location in the tree.
 ```json
 {
   "id": "656734821f4664001f296973",
@@ -137,7 +137,7 @@ If the item has a sensorType, it means it is a component. If it does not have a 
 }
 ```
 
-If the item has a location and does not have a sensorId, it means he is an asset with a location as parent, from the location collection
+If the item has a location and does not have a sensorId, that means it is an asset with a location as parent, from the location collection
 ```json
 {
   "id": "656a07bbf2d4a1001e2144c2",
@@ -146,7 +146,7 @@ If the item has a location and does not have a sensorId, it means he is an asset
 }
 ```
 
-If the item has a parentId and does not have a sensorId, it means he is an asset with another asset as a parent
+If the item has a parentId and does not have a sensorId, that means it is an asset with other asset as a parent
 ```json
 {
   "id": "656a07c3f2d4a1001e2144c5",
@@ -155,7 +155,7 @@ If the item has a parentId and does not have a sensorId, it means he is an asset
 }
 ```
 
-If the item has a sensorType, it means it is a component. If it does have a location or a parentId, it means he has an asset or Location as parent    
+If the item has a sensorType, that means it is a component. If it does have a location or a parentId, that means it has an asset or Location as parent    
 ```json
 {
   "id": "656a07cdc50ec9001e84167b",
@@ -168,7 +168,7 @@ If the item has a sensorType, it means it is a component. If it does have a loca
 }
 ```
         
-To summarize, this is the visual representation of this items on the Tree
+To summarize, this is the visual representation of items on the Tree
 ```
 - ROOT
   |
@@ -192,7 +192,7 @@ To summarize, this is the visual representation of this items on the Tree
 
 
 ### Demo API
-The API only works for GET requests, there are 3 endpoints:
+The API only works for GET requests. There are 3 endpoints:
 
 - `/companies` - Returns all companies
 - `/companies/:companyId/locations` - Returns all locations of the company
