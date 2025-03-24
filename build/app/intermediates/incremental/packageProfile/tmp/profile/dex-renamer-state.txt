@@ -1,0 +1,10 @@
+#Sat Mar 22 09:53:55 BRT 2025
+base.2=/Users/mateussiqueira/projects/asset_tree/build/app/intermediates/dex/profile/mergeProjectDexProfile/1/classes.dex
+path.2=1/classes.dex
+base.1=/Users/mateussiqueira/projects/asset_tree/build/app/intermediates/dex/profile/mergeProjectDexProfile/0/classes.dex
+path.1=0/classes.dex
+base.0=/Users/mateussiqueira/projects/asset_tree/build/app/intermediates/dex/profile/mergeExtDexProfile/classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,29 +1,59 @@
-# TRACTIAN Challenges
-### [Meet TRACTIAN](https://tractian.com/en/about)
-![image](./assets/header.jpg)
+# Test Tractian
 
-### About this Repository
-Every year since its founding, TRACTIAN has doubled in size. Today, we have **more than 350 employees**, and it has been a huge challenge to find people who are culturally aligned and prepared. Additionally, every month we receive **over 5,000 applications from people interested in revolutionizing the industry with us**. We have always been very meticulous in evaluating each application individually. *To find good employees, no precaution is too small.*
+Este projeto é um aplicativo Flutter desenvolvido para a Tractian, focado em visualização e gerenciamento de ativos industriais. O aplicativo permite uma visualização hierárquica de ativos e localizações, com recursos de filtragem e busca.
 
-This evaluation has become time-consuming, decreasing our ability to quickly assess all candidates. We believe that there isn’t sufficient technology in the market to evaluate candidates the way we do. We have decided to open our challenges to everyone interested in working with us, believing that facing the challenge differentiates you from other candidates and ensures that you are assessed technically beyond your background, LinkedIn, or resume.
+## 🎥 Demonstração
 
-> **An interesting fact:** 90% of our top engineers took the challenge in their area to join TRACTIAN. <br>*It should be clear how important this challenge is.*
+[![Demo Video](https://img.youtube.com/vi/V9zB5yPVIS8/maxresdefault.jpg)](https://youtube.com/shorts/V9zB5yPVIS8)
 
-> :star: The challenge is an accelerator for the evaluation of your application, those who have completed the challenge will be assessed first.
+## 🚀 Funcionalidades
 
-### Available Challenges
-All our challenges are available in this repository, but that does not mean there is an open position for the area/position. We recommend checking if there are available positions for what you want to apply for, [click here to check](https://tractian.com/en/careers).
+- Visualização hierárquica de ativos e localizações
+- Filtragem por tipo de sensor (energia)
+- Filtragem por status crítico
+- Busca por nome de ativo
+- Interface intuitiva e responsiva
+- Processamento eficiente de dados com Isolates
 
-- [Front-end Software Engineer](./front-end/README.md)
-- [Mobile Software Engineer](./mobile/README.md)
-- Back-end Software Engineer (Coming Soon)
-- Quality Software Analyst (Coming Soon)
+## 🛠️ Tecnologias Utilizadas
 
-### How to submit the challenge?
-When applying for the desired position, you will receive an email about the challenge. Simply reply to it with the link to the repository. (We only accept links from public GitHub repositories)
+- Flutter
+- Provider (Gerenciamento de Estado)
+- Isolates (Processamento em Background)
+- Clean Architecture (Parcialmente implementada)
 
-Remember, the challenge does not guarantee your position, it is an enhancer and a differentiator for us to assess your profile more accurately.
+## 📦 Instalação
 
+1. Clone o repositório:
 
-> Thank you for your interest in being part of the startup that is transforming the industry in the world.
-> "Not knowing is no reason not to do it, on the contrary. It is the first step to expand your skills"
+```bash
+git clone https://github.com/mateussiqueira/test-tractian.git
+```
+
+2. Instale as dependências:
+
+```bash
+flutter pub get
+```
+
+3. Execute o aplicativo:
+
+```bash
+flutter run
+```
+
+## 🎯 Pontos de Melhoria
+
+Se tivesse mais tempo, aqui estão os principais pontos que eu melhoraria no projeto:
+
+### 1. Performance e Otimizações
+
+- Implementar paginação para carregar dados em lotes
+- Adicionar cache persistente com `hive` ou `shared_preferences`
+- Otimizar o carregamento de imagens com `cached_network_image`
+- Implementar lazy loading para nós da árvore
+- Adicionar compressão de dados para reduzir o uso de memória
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.

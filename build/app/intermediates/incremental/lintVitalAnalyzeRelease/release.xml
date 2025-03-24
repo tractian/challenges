@@ -1,0 +1,37 @@
+<variant
+    name="release"
+    package="com.example.asset_tree"
+    minSdkVersion="21"
+    targetSdkVersion="35"
+    shrinking="true"
+    mergedManifest="/Users/mateussiqueira/projects/asset_tree/build/app/intermediates/merged_manifest/release/processReleaseMainManifest/AndroidManifest.xml"
+    proguardFiles="/Users/mateussiqueira/projects/asset_tree/build/app/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.7.0:/Users/mateussiqueira/development/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/Users/mateussiqueira/projects/asset_tree/build/app/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
+    desugaredMethodsFiles="/Users/mateussiqueira/.gradle/caches/8.10.2/transforms/8396b395aefe588efd6884e268bf40ca/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/release/java:src/main/kotlin:src/release/kotlin"
+        resDirectories="src/main/res:src/release/res"
+        assetsDirectories="src/main/assets:src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <artifact
+      classOutputs="/Users/mateussiqueira/projects/asset_tree/build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes:/Users/mateussiqueira/projects/asset_tree/build/app/tmp/kotlin-classes/release:/Users/mateussiqueira/projects/asset_tree/build/app/kotlinToolingMetadata:/Users/mateussiqueira/projects/asset_tree/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/processReleaseResources/R.jar"
+      type="MAIN"
+      applicationId="com.example.asset_tree"
+      generatedSourceFolders="/Users/mateussiqueira/projects/asset_tree/build/app/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/Users/mateussiqueira/projects/asset_tree/build/app/generated/res/resValues/release"
+      desugaredMethodsFiles="/Users/mateussiqueira/.gradle/caches/8.10.2/transforms/8396b395aefe588efd6884e268bf40ca/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

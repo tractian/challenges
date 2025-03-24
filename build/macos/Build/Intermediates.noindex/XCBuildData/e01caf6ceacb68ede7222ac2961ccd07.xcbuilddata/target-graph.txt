@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'Runner' in project 'Runner'
+➜ Explicit dependency on target 'Flutter Assemble' in project 'Runner'
+Target 'Flutter Assemble' in project 'Runner' (no dependencies)

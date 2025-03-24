@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Users/mateussiqueira/projects/asset_tree/android/app"
+    name=":app"
+    type="APP"
+    maven="android:app:unspecified"
+    agpVersion="8.7.0"
+    buildFolder="/Users/mateussiqueira/projects/asset_tree/build/app"
+    bootClassPath="/Users/mateussiqueira/Library/Android/platforms/android-35/android.jar:/Users/mateussiqueira/Library/Android/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="11"
+    compileTarget="android-35">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
