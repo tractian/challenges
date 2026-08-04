@@ -110,9 +110,9 @@ Include the experience for:
 - Intermittent connectivity and offline use.
 - Application backgrounding, process termination, and restoration.
 
-## Current Data Contract
+## Data Contract
 
-The current API exposes three resources.
+The provided dataset exposes three resources.
 
 ### Company
 
@@ -181,7 +181,7 @@ Together, the location and asset collections produce a hierarchy such as:
   └── Fan - External [Component]
 ```
 
-The current endpoints return complete collections rather than a preassembled tree or a paginated hierarchy. Your design should work with this contract and may also propose how the contract could evolve.
+The dataset provides complete collections rather than a preassembled tree or a paginated hierarchy. Your design should work with this contract and may also propose how the contract could evolve.
 
 ## What Your Design Should Cover
 
@@ -211,7 +211,7 @@ Show how the application:
 - Defines cache freshness and communicates stale data to the user.
 - Supports useful offline behavior and later synchronization.
 
-The current contract is read-only, so document any assumptions about future writes and conflict resolution rather than inventing them as current behavior.
+The contract is read-only, so document any assumptions about future writes and conflict resolution rather than inventing them as current behavior.
 
 ### Tree construction and performance
 
@@ -369,14 +369,12 @@ You are not expected to train an AI model. We are evaluating the mobile and syst
 
 Use the Figma file to understand the product and main flows. You do not need to reproduce its visual design, and the architecture should not depend on Flutter unless that is part of your chosen approach.
 
-### Demo API
+### Dataset
 
-The API supports `GET` requests for:
+The dataset is organized around three resources:
 
-- `/companies` — returns all companies.
-- `/companies/:companyId/locations` — returns all locations for a company.
-- `/companies/:companyId/assets` — returns all assets and components for a company.
+- Companies — the full list of available companies.
+- Locations — all locations for a company.
+- Assets — all assets and components for a company.
 
-Base URL: [https://fake-api.tractian.com](https://fake-api.tractian.com)
-
-A local copy of the dataset is also available at [`assets/api-data.json`](../assets/api-data.json). Use it to inspect data shape, edge cases, and performance characteristics without depending on network availability.
+The dataset is available at [`assets/api-data.json`](../assets/api-data.json). Use it to inspect data shape, edge cases, and performance characteristics. Treat it as the response of a read-only backend when designing your data access and synchronization strategy.
