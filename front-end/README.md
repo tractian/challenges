@@ -2,19 +2,19 @@
 
 ## Overview
 
-Design a high-level system for a larger domain on a virtual whiteboard — no code. Treat it as a collaborative session with a peer: produce a design proposal a teammate could pick up and implement. Expect clarifying questions throughout.
+Design a high-level system for a larger domain on a virtual whiteboard. There is no coding in this session. Treat it as a collaborative conversation with a peer and create a design proposal that a teammate could implement. Expect clarifying questions throughout.
 
 **What we're looking for**
 
-- **Comprehensiveness** — covers the functional requirements and edge cases
-- **Feasibility** — practical and realistically implementable
-- **Scalability** — holds up as usage and requirements grow
-- **Resilience** — tolerates real-world failures and outages
+- **Comprehensiveness:** cover the functional requirements and edge cases.
+- **Feasibility:** propose something practical and realistic to implement.
+- **Scalability:** account for growth in usage and requirements.
+- **Resilience:** consider how the system handles failures and outages.
 
 **Tips**
 
-- Clarify requirements before designing
-- Call out tradeoffs and why you chose one approach over another
+- **Ask clarifying questions** before you start.
+- **Explain your tradeoffs** as you work and why you made them.
 
 ---
 
@@ -31,9 +31,9 @@ Root
                          └── Component (has a sensor)
 ```
 
-- **Location** — a physical place in a plant (factory, production area, storage sector). Can nest sub-locations.
-- **Asset** — a piece of equipment (conveyor, motor, pump). Can nest sub-assets.
-- **Component** — leaf of the tree: an asset that carries a **sensor** (e.g. vibration, energy).
+- **Location:** a physical place in a plant, such as a factory, production area, or storage sector. Locations can contain other locations.
+- **Asset:** a piece of equipment, such as a conveyor, motor, or pump. Assets can contain other assets.
+- **Component:** the leaf of the tree, an asset with a **sensor**, such as a vibration or energy sensor.
 
 Every component has a **status** (`operating`, `warning`, `alarming`) that rolls up the tree. Status is the plant manager's first scan: "is everything fine, or where do I send someone?"
 
@@ -41,28 +41,28 @@ Every component has a **status** (`operating`, `warning`, `alarming`) that rolls
 
 ## Functional Requirements
 
-1. **Visualization** — render the hierarchy as a tree; levels should be visually distinct.
-2. **CRUD** — create, read, update, and delete locations, assets, and components anywhere in the tree.
-3. **Search & Filters** — search by name; filter by sensor type and by status.
+1. **Visualization:** show the hierarchy as a tree, with each level clearly distinguished.
+2. **CRUD:** allow people to create, read, update, and delete locations, assets, and components anywhere in the tree.
+3. **Search and filters:** support search by name and filters by sensor type and status.
 
-[Figma reference](https://www.figma.com/design/vy7so4jovGWXCAAPcT3iYw/-Careers--Frontend-Challenge?node-id=0-1&t=MOufg4LSia3ORSQe-1) — one possible UI, not a pixel spec. Use it to ground the conversation.
+[Figma reference](https://www.figma.com/design/vy7so4jovGWXCAAPcT3iYw/-Careers--Frontend-Challenge?node-id=0-1&t=MOufg4LSia3ORSQe-1): one possible UI, not a pixel-perfect specification. Use it to ground the conversation.
 
 ---
 
 ## Things to Consider
 
-- New sensor types will arrive beyond vibration and energy.
-- More asset-related information is coming (e.g. insights behind a status, historical trends).
-- A user can belong to many companies, each with its own tree.
-- Trees can become deep and wide.
+- **Sensor types:** new sensor types will arrive beyond vibration and energy.
+- **Asset information:** more information is coming, including the insights behind a status and historical trends.
+- **Companies:** a person can belong to many companies, each with its own tree.
+- **Tree size:** trees can become deep and wide.
 
 ---
 
 ## What We Expect on the Whiteboard
 
-This is a frontend role, so the focus is frontend design — but show enough backend/system awareness to define how the frontend consumes its data.
+This is a Front-end role, so keep the focus on the Front-end experience and implementation. Still, this is a system design exercise: sketch the Back-end, storage, and any other parts needed to show how the Front-end receives and uses its data.
 
 Design two deliverables:
 
-1. **System diagram** — each component's responsibilities, the information it owns or handles, and the contracts/communication between components.
-2. **Data contracts & APIs** — a basic model of the data contracts and the APIs/routes each component uses, consumes, and provides; explain how the frontend receives and handles the information it needs.
+1. **System diagram:** show each component, its responsibilities, the information it owns or handles, and how components communicate with each other.
+2. **Data contracts and APIs:** outline the main data shapes and the APIs or routes each component uses or provides. Show how the frontend receives and handles the information it needs.
