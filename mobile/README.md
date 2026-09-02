@@ -45,7 +45,9 @@ Every component has a **status** (`operating`, `warning`, `alarming`) that rolls
 2. **CRUD:** allow people to create, read, update, and delete locations, assets, and components anywhere in the tree.
 3. **Search and filters:** support search by name and filters by sensor type and status.
 
-[Figma reference](https://www.figma.com/design/IP50SSLkagXsUNWiZj0PjP/-Careers--Flutter-Challenge-v2?node-id=0-1&p=f&t=k3kNmJjLVwKbXS7a-0): one possible UI, not a pixel-perfect specification. Use it to ground the conversation.
+![UI reference](reference/ui.png)
+
+The image above is one possible UI, not a pixel-perfect specification. Use it to ground the conversation.
 
 ---
 
