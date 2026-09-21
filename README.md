@@ -21,7 +21,7 @@ All our challenges are available in this repository, but that does not mean ther
 - [Mobile Software Engineer](./mobile/README.md)
 - Back-end Software Engineer (Coming Soon)
 - Quality Software Analyst (Coming Soon)
-- Front-end Software Engineer(New Challenge Available)
+- Front-end Software Engineer (Coming Soon)
 
 ### How to submit the challenge?
 
